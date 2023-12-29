@@ -1,10 +1,9 @@
-import RefForm from "./components/RefForm";
 import StateForm from "./components/StateForm";
 
 function App() {
   return (
     <div>
-      <RefForm />
+      <StateForm />
     </div>
   );
 }
