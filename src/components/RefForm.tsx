@@ -2,7 +2,7 @@ import { FormEvent, useRef } from "react";
 
 type Props = {};
 
-function Form({}: Props) {
+function RefForm({}: Props) {
   const nameRef = useRef<HTMLInputElement>(null);
   const ageRef = useRef<HTMLInputElement>(null);
   const person = { name: "", age: 0 };
@@ -37,4 +37,4 @@ function Form({}: Props) {
   );
 }
 
-export default Form;
+export default RefForm;
