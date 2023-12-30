@@ -1,9 +1,9 @@
-import HookForm from "./components/HookForm";
+import ExpenseTrackerForm from "./components/ExpenseTrackerForm";
 
 function App() {
   return (
     <div>
-      <HookForm />
+      <ExpenseTrackerForm />
     </div>
   );
 }
