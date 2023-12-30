@@ -1,9 +1,9 @@
-import StateForm from "./components/StateForm";
+import HookForm from "./components/HookForm";
 
 function App() {
   return (
     <div>
-      <StateForm />
+      <HookForm />
     </div>
   );
 }
