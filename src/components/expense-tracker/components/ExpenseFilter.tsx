@@ -1,4 +1,4 @@
-import { categories } from "../../../App";
+import categories from "../../categories";
 
 type Props = {
   onSelectCategory: (category: string) => void;
